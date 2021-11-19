@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/jigastrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/product.css">
+  <title>ARSLed</title>
+</head>
+<body>
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <div class="header-top df justify-content-between align-items-center pt20 pb20">
+      <div class="col-4">
+        <div class="logo"><img src="img/logo.png"></div>
+      </div>
+      <div class="header-content df">
+        <div class="user">
+          <a href="#" class="user-link"><i class="far fa-user"></i></a>
+        </div>
+        <div class="favorites">
+          <a href="#" class="favorites-link"><i class="far fa-heart"></i></a>
+        </div>
+        <div class="basket">
+          <a href="#" class="basket-link"><img src="img/svg/корзина.svg"></a>
+          <span>4</span>
+        </div>
+        <div class="navtoggle">
+          <button type="button" class="toggle">
+            <i class="fas fa-bars" id="menu-bar"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-menu">
+    <div class="header-menu-block">
+      <div class="header-menu-inner">
+        <h6 class="fs16 bold">О компании</h6>
+        <div class="f-catalog">
+          <h6 class="f-catalog-header">Каталог</h6>
+          <ul class="nav-item active">
+            <li><a href="#">Промышленные</a></li>
+            <li><a href="#">Уличные</a></li>
+            <li><a href="#">Торговые</a></li>
+            <li><a href="#">АЗС</a></li>
+          </ul>
+        </div>
+        <div class="f-address">
+          <h6 class="f-catalog-header">Адрес</h6>
+          <ul class="nav-item active">
+            <li><a href="#">Ростов-на-Дону: 8(988)946-71-38</a></li>
+            <li><a href="#">E-mail: info@arsled.ru</a></li>
+            <li><a href="#">Адрес: 344055, г.Ростов-на-Дону Ул.Пескова 17 У</a></li>
+          </ul>
+        </div>
+        <div class="f-notification">
+          <h6 class="f-catalog-header">Новостная рассылка</h6>
+          <ul class="nav-item active">
+            <input type="text" placeholder="Введите Ваш email">
+            <div class="contacts">
+              <a href="#"><img src="./img/svg/vk-social-logotype.svg"></a>
+              <a href="#"><img src="./img/svg/odnoklassniki-logo.svg"></a>
+              <a href="#"><img src="./img/svg/instagram.svg"></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /HEADER -->
+  <div class="bread">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li>ARS STREET 300 </li>
+      </ul>
+    </div>
+  </div>
+  <!-- product -->
+  <section class="product-full-info">
+    <div class="container">
+      <div class="pfi-inner">
+        <div class="row">
+          <div class="col-lg-6 col-md-7">
+            <div class="product-block-photos">
+              <div class="product-photos">
+                <div class="product-photo active">
+                  <img src="img/product-photo.png">
+                </div>
+                <div class="product-photo">
+                  <img src="img/product-photo.png">
+                </div>
+                <div class="product-photo">
+                  <img src="img/product-photo.png">
+                </div>
+              </div>
+              <div class="big-photo-product">
+                <img src="./img/product-photo.png">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5">
+            <div class="pf-info">
+              <span class="fs24 bold">Уличный светильник</span>
+              <h3 class="product-model-name fs36 bold">ARS STREET 300</h3>
+              <ul>
+                <li><strong>Тип</strong><p>уличный светильник</p></li>
+                <li><strong>Световой поток, ЛМ.</strong><p>42 441</p></li>
+                <li><strong>Мощность, ВТ.</strong><p>300</p></li>
+                <li><strong>Светодиоды</strong><p>OSRAM</p></li>
+                <li><strong>Кривая Сил Света</strong><p>Косинусная</p></li>
+                <li><strong>Степень защиты</strong><p>IP67</p></li>
+                <li><strong>Светодиодов, шт.</strong><p>792</p></li>
+                <li><strong>Размер, мм.</strong><p>853*242*143</p></li>
+              </ul>
+              <div class="product-btns df justify-content-between align-items-center">
+                <button type="button" class="choose-color-btn">выбрать цвет</button>
+                <a href="#" class="btn">в корзину</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /product -->
+  <!-- choose-color -->
+  <div class="choose-color-modal">
+    <div class="chcm-inner">
+      <span class="color-matching">Подбор цвета</span>
+      <div class="cs-i-block">
+              <div class="cs-i-product">
+                <h2>Какой-то заголовок</h2>
+                <div class="cs-ip-img"><img src="img/for-color.png"></div>
+              </div>
+      </div>
+      <div class="cs-form">
+        <div class="cs-f-inner">
+          <label for="ch-color" class="fs16 regular">Выбрать цвет (Название детали)</label>
+          <input type="range" id="colors" name="ch-color">
+        </div>
+        <div class="cs-f-inner">
+          <label for="ch-color" class="fs16 regular">Выбрать цвет (Название детали)</label>
+          <input type="range" id="colors" name="ch-color">
+        </div>
+      </div>
+      <span class="modal-close"><i class="fas fa-times"></i></span>
+    </div>
+  </div>
+  <!-- /choose-color -->
+  <!-- line -->
+  <div class="full-line">
+    <div class="container">
+      <div class="line"></div>
+    </div>
+  </div>
+  <!-- line -->
+  <!-- products that you might like -->
+  <section class="products-like">
+  <div class="container">
+    <div class="pl-inner">
+      <div class="col-lg-3">
+        <h6 class="similar-products">Похожие товары</h6>
+      </div>
+      <div class="list-cards swiper-container">
+        <div class="row cardSlider swiper-wrapper">
+          <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4 col-12 swiper-slide">
+            <div class="list-card">
+              <div class="lc-img"><img src="./img/l-card-1.png"></div>
+              <div class="lc-content">
+                <h6>ARS PROM 150 L</h6>
+                <p>21 495 ЛМ / 150 ВТ</p>
+                <a href="#" class="card-btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4 col-12 swiper-slide">
+            <div class="list-card">
+              <div class="lc-img"><img src="./img/l-card-1.png"></div>
+              <div class="lc-content">
+                <h6>ARS PROM 150 L</h6>
+                <p>21 495 ЛМ / 150 ВТ</p>
+                <a href="#" class="card-btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4 col-12 swiper-slide">
+            <div class="list-card">
+              <div class="lc-img"><img src="./img/l-card-1.png"></div>
+              <div class="lc-content">
+                <h6>ARS PROM 150 L</h6>
+                <p>21 495 ЛМ / 150 ВТ</p>
+                <a href="#" class="card-btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4 col-12 swiper-slide">
+            <div class="list-card">
+              <div class="lc-img"><img src="./img/l-card-1.png"></div>
+              <div class="lc-content">
+                <h6>ARS PROM 150 L</h6>
+                <p>21 495 ЛМ / 150 ВТ</p>
+                <a href="#" class="card-btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4 col-12 swiper-slide">
+            <div class="list-card">
+              <div class="lc-img"><img src="./img/l-card-1.png"></div>
+              <div class="lc-content">
+                <h6>ARS PROM 150 L</h6>
+                <p>21 495 ЛМ / 150 ВТ</p>
+                <a href="#" class="card-btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4 col-12 swiper-slide">
+            <div class="list-card">
+              <div class="lc-img"><img src="./img/l-card-1.png"></div>
+              <div class="lc-content">
+                <h6>ARS PROM 150 L</h6>
+                <p>21 495 ЛМ / 150 ВТ</p>
+                <a href="#" class="card-btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-4 col-md-4 col-12 swiper-slide">
+            <div class="list-card">
+              <div class="lc-img"><img src="./img/l-card-1.png"></div>
+              <div class="lc-content">
+                <h6>ARS PROM 150 L</h6>
+                <p>21 495 ЛМ / 150 ВТ</p>
+                <a href="#" class="card-btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- /products that you might like -->
+  <!-- about lamps -->
+  <section class="about-lamps">
+    <div class="container">
+      <div class="al-inner">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="al-i-block">
+              <h2>О СВЕТИЛЬНИКАХ</h2>
+              <strong>ARSLED</strong>
+              <div class="al-slider swiper-container">
+                <div class="al-wrapper swiper-wrapper">
+                  <div class="al-i-info-content swiper-slide">
+                    <div class="al-i-ic-header df align-items-center swiper-wrapper">
+                      <img src="./img/svg/a1-01.svg">
+                      <h6 class="fs20 bold">Коэффициент пульсации < 1%</h6>
+                    </div>
+                    <p class="fs16 regular lh15">Низкий коэффициент пульсации создает благоприятную среду для работы. Свет не мерцает, поэтому не оказывает влияния на нервную систему и не создает дискомфорт для работников. Так же наши светильники не создают помехи при видеосъемке.</p>
+                  </div>
+                  <div class="al-i-info-content swiper-slide">
+                    <div class="al-i-ic-header df align-items-center swiper-wrapper">
+                      <img src="./img/svg/a1-01.svg">
+                      <h6 class="fs20 bold">Коэффициент пульсации < 1%</h6>
+                    </div>
+                    <p class="fs16 regular lh15">Низкий коэффициент пульсации создает благоприятную среду для работы. Свет не мерцает, поэтому не оказывает влияния на нервную систему и не создает дискомфорт для работников. Так же наши светильники не создают помехи при видеосъемке.</p>
+                  </div>
+                  <div class="al-i-info-content swiper-slide">
+                    <div class="al-i-ic-header df align-items-center swiper-wrapper">
+                      <img src="./img/svg/a1-01.svg">
+                      <h6 class="fs20 bold">Коэффициент пульсации < 1%</h6>
+                    </div>
+                    <p class="fs16 regular lh15">Низкий коэффициент пульсации создает благоприятную среду для работы. Свет не мерцает, поэтому не оказывает влияния на нервную систему и не создает дискомфорт для работников. Так же наши светильники не создают помехи при видеосъемке.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-prev"></div>
+              <div class="swiper-next"></div>
+              <div class="lol df align-items-center">
+                <a href="#" class="see-all pa">перейти в каталог</a>
+                <div class="pagination"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="lamps-img"><img src="./img/street50s.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about lamps -->
+  <!-- questions -->
+  <section class="questions">
+      <div class="container">
+        <div class="q-inner">
+          <div class="row">
+            <div class="col-lg-6 col-sm-6">
+              <h1>мы готовы ответить на любой вопрос</h1>
+              <p>Оставьте заявку и Мы Вам перезвоним</p>
+            </div>
+            <div class="col-lg-6 col-sm-6 df align-content-between">
+              <div class="field">
+                <input type="text" placeholder="Аристар">
+                <input type="text" placeholder="Введите Ваш номер">
+                <button type="submit" class="submit-btn">отправить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- /questions -->
+  <!-- calculation lighting -->
+  <section class="calculation-lighting">
+    <div class="container">
+      <div class="cl-inner">
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-6 col-sm-12">
+            <div class="cl-inner-img">
+              <img src="./img/d.png">
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 col-sm-12">
+            <div class="cl-inner-block">
+              <h4>БЕСПЛАТНЫЙ РАСЧЕТ ОСВЕЩЕНИЯ</h4>
+              <p>Все клиенты компании ARSLed получают бесплатный светотехнический расчет.</p>
+              <p>Квалиффикация наших технических специалистов позволяет гарантировать необходимую освещенность.</p>
+              <p>При монтаже наших светильников по нашему светотехническому расчету мы даем гарантию на соответствие освещенния техническому расчету.</p>
+              <p>Если количество светильников из расчет не дает необходимого уровня</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /calculation lighting -->
+  <!-- FOOTER -->
+  <footer>
+      <div class="container">
+        <div class="f-inner">
+          <div class="f-i-block">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="f-ib-title">
+                  <h2><strong>Отправить</strong> заявку</h2>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="f-application df justify-content-between align-items-center">
+                  <input type="text" placeholder="Введите Ваш номер">
+                  <button type="submit" class="submit-btn">отправить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="f-line"></div>
+          <div class="f-i-content">
+            <div class="col-lg-2">
+              <div class="logo"><img src="img/logo.png"></div>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-lg-3 col-sm-3 col-4 col-6">
+                <div class="f-address">
+                  <h6>Адрес</h6>
+                  <ul>
+                    <li><a href="#">Ростов-на-Дону: 8(988)946-71-38</a></li>
+                    <li><a href="#">E-mail: info@arsled.ru</a></li>
+                    <li><a href="#">Адрес: 344055, г.Ростов-на-Дону Ул.Пескова 17 У</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-3 col-4 col-6">
+                <div class="f-catalog">
+                  <h6>Каталог</h6>
+                  <ul>
+                    <li><a href="#">Промышленные</a></li>
+                    <li><a href="#">Уличные</a></li>
+                    <li><a href="#">Торговые</a></li>
+                    <li><a href="#">АЗС</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-3 col-4 col-12">
+                <div class="f-notification">
+                  <h6>Новостная рассылка</h6>
+                  <ul>
+                    <input type="text" placeholder="Введите Ваш email">
+                    <div class="contacts">
+                      <a href="#"><img src="./img/svg/vk-social-logotype.svg"></a>
+                      <a href="#"><img src="./img/svg/odnoklassniki-logo.svg"></a>
+                      <a href="#"><img src="./img/svg/instagram.svg"></a>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!-- /FOOTER -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>

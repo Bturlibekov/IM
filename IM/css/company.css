@@ -1,0 +1,56 @@
+.company-intro {
+  width: 100%;
+  background: url(../img/company-bg.png) no-repeat center bottom / cover;
+  position: relative;
+  padding-top: 120px;
+}
+.company-intro .bread {
+  margin-top: 0;
+}
+.ci-inner {
+  padding: 60px 0 50px 0;
+  color: #333333;
+}
+.company-title {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #333333;
+}
+.company-title span {
+  font-weight: 900;
+}
+.company-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 60px 0;
+  background-color: #f6473f;
+}
+.description p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  color: #484848;
+}
+.description p strong {
+  color: #333333;
+}
+.similar-products {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #484848;
+}
+.list-cards {
+  margin: 0;
+}
+.pl-inner .list-cards .swiper-pagination {
+  margin-top: 30px;
+}
+.list-cards .swiper-pagination-bullet {
+  border-radius: 5px;
+  margin: 0 5px;
+}
